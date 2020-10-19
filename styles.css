@@ -1,0 +1,72 @@
+
+
+.board {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(3, 70px);
+  grid-template-rows: repeat(3, 70px);
+}
+
+.cell {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.cell:last-child,
+.cell:nth-last-child(2),
+.cell:nth-last-child(3) {
+  border-bottom: none;
+}
+
+.cell:first-child,
+.cell:nth-last-child(7),
+.cell:nth-last-child(8) {
+  border-top: none;
+}
+
+.cell:first-child,
+.cell:nth-last-child(6),
+.cell:nth-last-child(3) {
+  border-left: none;
+}
+
+.cell:last-child,
+.cell:nth-last-child(4),
+.cell:nth-last-child(7) {
+  border-right: none;
+}
+
+.x{
+	font-size: 70px;
+	color:black;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+.o{
+  font-size: 43px;
+  font-weight:600;
+  color:black;
+	cursor: pointer;
+}
+
+.xgray{
+  font-size: 70px;
+	transform: rotate(45deg);
+	cursor: pointer;
+	color:rgb(194, 192, 192);
+
+}
+
+.ogray{
+  font-size: 43px;
+  font-weight:600;
+	cursor: pointer;
+  color:rgb(194, 192, 192);
+}

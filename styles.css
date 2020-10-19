@@ -44,20 +44,20 @@
 }
 
 .x{
-	font-size: 70px;
+	font-size:100px;
 	color:black;
 	transform: rotate(45deg);
 	cursor: pointer;
 }
 .o{
   font-size: 43px;
-  font-weight:600;
+  font-weight: 600;
   color:black;
 	cursor: pointer;
 }
 
 .xgray{
-  font-size: 70px;
+  font-size: 100px;
 	transform: rotate(45deg);
 	cursor: pointer;
 	color:rgb(194, 192, 192);

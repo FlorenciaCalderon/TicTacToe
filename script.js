@@ -107,6 +107,13 @@ function checkX() {
       }
     } else continue;
   }
+
+  if (xSpots.length == 5) {
+    alert("NO ONE WINS!");
+    if (confirm("NO ONE WINS!")) {
+      window.location.reload();
+    }
+  }
 }
 
 function checkO() {

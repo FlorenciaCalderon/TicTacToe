@@ -108,7 +108,7 @@ function checkX() {
     } else continue;
   }
 
-  if (xSpots.length == 5) {
+  if (xSpots.length == 5&&!confirm("X WINS!")) {
     alert("NO ONE WINS!");
     if (confirm("NO ONE WINS!")) {
       window.location.reload();
